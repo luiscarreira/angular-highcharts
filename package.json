@@ -1,5 +1,5 @@
 {
-  "name": "lib-angular-highcharts",
+  "name": "@bigar/lib-angular-highcharts",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
