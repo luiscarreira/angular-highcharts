@@ -17,7 +17,9 @@ export class ChartService {
 
   initModules() {
     this.chartModules.forEach(chartModule => {
-      chartModule(Highcharts);
+      if(Highcharts === 'object'){
+        chartModule(Highcharts);
+      }
     });
   }
 }
